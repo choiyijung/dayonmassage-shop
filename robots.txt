@@ -8,4 +8,4 @@ Disallow: /join.html
 Disallow: /mypage.html
 Disallow: /shop.html
 
-Sitemap: https://salangmassage.xyz/sitemap.xml
+Sitemap: https://dayonmassage-shop.netlify.app/sitemap.xml
