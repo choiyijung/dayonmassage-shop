@@ -354,3 +354,103 @@
   .haru-home footer{padding:28px 18px 98px !important}
   .haru-home .bottom-nav{display:grid !important}
 }
+
+/* SITE06 PAJU UIJEONGBU HUB START */
+.dayon-focus-hub{
+  margin:0 0 46px;
+  padding:42px;
+  border-radius:28px;
+  background:
+    radial-gradient(circle at 84% 14%,rgba(135,184,211,.22),transparent 34%),
+    linear-gradient(135deg,#243848 0%,#36566d 55%,#1e303d 100%);
+  color:#fff;
+  box-shadow:0 24px 58px rgba(28,49,64,.18);
+}
+.dayon-focus-intro{
+  display:grid;
+  grid-template-columns:1.2fr .8fr;
+  gap:34px;
+  align-items:end;
+  margin-bottom:28px;
+}
+.dayon-focus-intro small{
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.17em;
+  color:#afd1e3;
+}
+.dayon-focus-intro h2{
+  margin:10px 0 0;
+  font-size:34px;
+  line-height:1.22;
+  letter-spacing:-.045em;
+}
+.dayon-focus-intro h2 em{
+  font-style:normal;
+  color:#c5e3f1;
+}
+.dayon-focus-intro p{
+  margin:0;
+  font-size:13px;
+  line-height:1.85;
+  color:rgba(255,255,255,.76);
+}
+.dayon-focus-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+.dayon-focus-card{
+  min-height:174px;
+  padding:24px;
+  display:flex;
+  flex-direction:column;
+  text-decoration:none;
+  color:#263b49;
+  background:#edf3f6;
+  border-radius:20px 8px 20px 8px;
+  transition:.2s ease;
+}
+.dayon-focus-card:hover{
+  transform:translateY(-3px);
+  box-shadow:0 14px 30px rgba(0,0,0,.15);
+  background:#fff;
+}
+.dayon-focus-card small{
+  color:#58798d;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.15em;
+}
+.dayon-focus-card strong{
+  display:block;
+  margin:17px 0 8px;
+  font-size:22px;
+  line-height:1.25;
+  letter-spacing:-.035em;
+}
+.dayon-focus-card span{
+  display:block;
+  color:#64737c;
+  font-size:13px;
+  line-height:1.7;
+}
+.dayon-focus-card b{
+  margin-top:auto;
+  padding-top:18px;
+  color:#365f78;
+  font-size:12px;
+}
+.dayon-main{background:#dceaf1}
+.dayon-uij{background:#e7edf3}
+.dayon-wide{background:#e1edf0}
+.dayon-sub{background:#edf1f4}
+
+@media(max-width:700px){
+  .dayon-focus-hub{padding:26px 18px;margin-bottom:30px}
+  .dayon-focus-intro{grid-template-columns:1fr;gap:15px}
+  .dayon-focus-intro h2{font-size:29px}
+  .dayon-focus-grid{grid-template-columns:1fr;gap:8px}
+  .dayon-focus-card{min-height:150px;padding:19px}
+}
+/* SITE06 PAJU UIJEONGBU HUB END */
